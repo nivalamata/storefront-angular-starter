@@ -6,5 +6,6 @@ USER node
 COPY --chown=node:node . .
 RUN ["chmod", "+x", "install-storefront.sh"]
 RUN ["./install-storefront.sh", "v0.3.2"]
-EXPOSE 4000
+#EXPOSE 4000
+EXPOSE 80
 CMD [ "pm2-runtime", "process.json" ]
