@@ -1,6 +1,6 @@
 export const environment = {
     production: true,
-    apiHost: 'https://readonlydemo.vendure.io',
+    apiHost: 'https://dashboard.dizaya.com',
     apiPort: 443,
     shopApiPath: 'shop-api',
     baseHref: '/',
