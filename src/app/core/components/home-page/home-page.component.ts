@@ -31,9 +31,8 @@ export class HomePageComponent implements OnInit {
 
     private getHeroImageUrl(): string {
         const {apiHost, apiPort} = environment;
-        return `${apiHost}:${apiPort}/assets/preview/a2/thomas-serer-420833-unsplash__preview.jpg`;
+        return `${apiHost}:${apiPort}/assets/preview/60/photo-2024-04-06-02-45-57-15__preview.jpg`;
     }
-
 }
 
 const GET_COLLECTIONS = gql`
